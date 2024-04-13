@@ -1,0 +1,27 @@
+spring:
+ application:
+    name: WeatherApi
+server:
+ port: 9090
+
+springdoc:
+ swagger-ui:
+  supportedSubmitMethods: ["get", "put", "post", "delete", "patch"]
+
+geocode:
+  maps:
+    key: "6619286750600788582016boa9b542d"
+    url: "https://geocode.maps.co/search"
+
+weather:
+  service:
+    weatherapi:
+     key: "c406acc0d0534ace80751238241304"
+     url: "http://api.weatherapi.com/v1/forecast.json"
+    visualcrossing:
+     key: "B54DN25D9MFNFHFAZT8FU9889"
+     url: "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/"
+
+app:
+  thread-pool:
+    size: 2

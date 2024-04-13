@@ -1,0 +1,257 @@
+{
+	"info": {
+		"_postman_id": "90c53295-eaaf-4741-a8ee-f0a85bea8aca",
+		"name": "WeatherApi",
+		"description": "Тестовое задание",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26696225"
+	},
+	"item": [
+		{
+			"name": "WeatherOneDayCityDefaultAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9090/weather/one?service=all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"weather",
+						"one"
+					],
+					"query": [
+						{
+							"key": "service",
+							"value": "all"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "WeatherOneDayCityDefaultWeatherApiComService",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9090/weather/one?service=weatherApiComService",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"weather",
+						"one"
+					],
+					"query": [
+						{
+							"key": "service",
+							"value": "weatherApiComService"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "WeatherOneDayCityDefaultVisualCrossingComService",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9090/weather/one?service=visualCrossingComService",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"weather",
+						"one"
+					],
+					"query": [
+						{
+							"key": "service",
+							"value": "visualCrossingComService"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "WeatherWeekCityDefaultAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9090/weather/week?service=all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"weather",
+						"week"
+					],
+					"query": [
+						{
+							"key": "service",
+							"value": "all"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "WeatherWeekCityDefaultWeatherApiComService",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9090/weather/week?service=weatherApiComService",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"weather",
+						"week"
+					],
+					"query": [
+						{
+							"key": "service",
+							"value": "weatherApiComService"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "WeatherWeekCityDefaultVisualCrossingService",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9090/weather/week?service=visualCrossingComService",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"weather",
+						"week"
+					],
+					"query": [
+						{
+							"key": "service",
+							"value": "visualCrossingComService"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "WeatherOneDayCityMoscowAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9090/weather/one?city=Moscow&service=all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"weather",
+						"one"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "Moscow"
+						},
+						{
+							"key": "service",
+							"value": "all"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "WeatherOneDayCityMoscowWeatherApiComService",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9090/weather/one?city=Moscow&service=weatherApiComService",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"weather",
+						"one"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "Moscow"
+						},
+						{
+							"key": "service",
+							"value": "weatherApiComService"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "WeatherWeekCityMoscowVisualCrossingService",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9090/weather/one?city=Moscow&service=visualCrossingComService",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"weather",
+						"one"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "Moscow"
+						},
+						{
+							"key": "service",
+							"value": "visualCrossingComService"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
